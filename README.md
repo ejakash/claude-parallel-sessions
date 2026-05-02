@@ -1,4 +1,4 @@
-# spawn-session
+# claude-parallel-sessions
 
 Fan a batch of independent tasks into N cold Claude Code processes, each in its own WezTerm pane. The skill (`skills/spawn-parallel-sessions/SKILL.md`) tells the controlling Claude session how to write self-contained prompts and pipe a JSON batch to `bin/claude-parallel-spawn.sh`. The script handles tab/pane layout in WezTerm and spawns the cold Claude CLIs.
 

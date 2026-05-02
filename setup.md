@@ -1,4 +1,4 @@
-# spawn-session — setup
+# claude-parallel-sessions — setup
 
 **Requires:** WezTerm, Claude Code, bash
 
@@ -17,7 +17,7 @@ None — paths are user-relative (`~/bin/`, `~/.claude/skills/`).
 ## Install
 
 ```bash
-# Replace <REPO_PATH> with this machine's clone path, e.g. /mnt/d/labs/spawn-session
+# Replace <REPO_PATH> with this machine's clone path, e.g. /mnt/d/labs/claude-parallel-sessions
 mkdir -p ~/bin
 ln -sf <REPO_PATH>/bin/claude-parallel-spawn.sh ~/bin/claude-parallel-spawn.sh
 ln -sf <REPO_PATH>/bin/claude-parallel-cleanup.sh ~/bin/claude-parallel-cleanup.sh
